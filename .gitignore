@@ -180,7 +180,7 @@ generated_imgs/
 
 # Custom model related artefacts
 variants.json
-models/
+# models/
 
 # models folder
 apps/stable_diffusion/web/models/
