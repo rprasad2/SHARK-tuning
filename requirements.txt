@@ -1,0 +1,35 @@
+setuptools
+wheel
+
+# SHARK Runner
+tqdm
+
+# SHARK Downloader
+google-cloud-storage
+
+# Testing
+pytest
+pytest-xdist
+pytest-forked
+Pillow
+parameterized
+
+# Add transformers, diffusers and scipy since it most commonly used
+transformers
+diffusers @ git+https://github.com/huggingface/diffusers@e47459c80f6f6a5a1c19d32c3fd74edf94f47aa2
+scipy
+ftfy
+gradio==3.22.0
+altair
+omegaconf
+safetensors
+opencv-python
+scikit-image
+pytorch_lightning # for runwayml models
+tk
+pywebview
+sentencepiece
+
+# Keep PyInstaller at the end. Sometimes Windows Defender flags it but most folks can continue even if it errors
+pefile
+pyinstaller

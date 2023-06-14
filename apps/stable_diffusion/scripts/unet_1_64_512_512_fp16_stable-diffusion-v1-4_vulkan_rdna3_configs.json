@@ -1,0 +1,33 @@
+{"options": [null], "identifier": "bmm", "b": 36, "m": 512, "n": 640, "k": 640}
+{"options": [null], "identifier": "bmm", "b": 36, "m": 512, "n": 320, "k": 960}
+{"options": [null], "identifier": "generic", "b": 2, "m": 320, "n": 4096, "k": 960}
+{"options": [null], "identifier": "bmm", "b": 36, "m": 512, "n": 320, "k": 640}
+{"options": [null], "identifier": "generic", "b": 2, "m": 320, "n": 4096, "k": 640}
+{"options": [null], "identifier": "bmm", "b": 36, "m": 128, "n": 640, "k": 960}
+{"options": [null], "identifier": "generic", "b": 2, "m": 640, "n": 1024, "k": 960}
+{"options": [null], "identifier": "generic", "b": 2, "m": 4, "n": 4096, "k": 2880}
+{"options": [null], "identifier": "generic", "b": 2, "m": 320, "n": 4096, "k": 36}
+{"options": [{"work_group_tile_sizes": [2, 128], "parallel_tile_sizes": [1, 4], "reduction_tile_sizes": [0, 0, 8], "work_group_sizes": [32, 2, 1], "pipeline": "SPIRVMatmulPromoteVectorize", "subgroup_size": 64, "pipeline_depth": 0, "store_stage": 0}], "identifier": "matmul", "b": 0, "m": 2, "n": 640, "k": 1280}
+{"options": [null], "identifier": "matmul", "b": 0, "m": 2048, "n": 640, "k": 640}
+{"options": [null], "identifier": "generic", "b": 2, "m": 320, "n": 1024, "k": 2880}
+{"options": [null], "identifier": "bmm", "b": 36, "m": 128, "n": 640, "k": 320}
+{"options": [null], "identifier": "matmul", "b": 0, "m": 32, "n": 640, "k": 1280}
+{"options": [null], "identifier": "bmm", "b": 36, "m": 128, "n": 640, "k": 640}
+{"options": [null], "identifier": "generic", "b": 2, "m": 640, "n": 1024, "k": 320}
+{"options": [null], "identifier": "matmul", "b": 0, "m": 2048, "n": 5120, "k": 640}
+{"options": [null], "identifier": "generic", "b": 2, "m": 640, "n": 1024, "k": 640}
+{"options": [null], "identifier": "bmm", "b": 16, "m": 1024, "n": 96, "k": 1024}
+{"options": [null], "identifier": "bmm", "b": 16, "m": 1024, "n": 1024, "k": 96}
+{"options": [null], "identifier": "bmm", "b": 36, "m": 512, "n": 320, "k": 320}
+{"options": [null], "identifier": "matmul", "b": 0, "m": 128, "n": 640, "k": 768}
+{"options": [null], "identifier": "bmm", "b": 16, "m": 1024, "n": 64, "k": 96}
+{"options": [null], "identifier": "bmm", "b": 16, "m": 1024, "n": 96, "k": 64}
+{"options": [null], "identifier": "matmul", "b": 0, "m": 2048, "n": 640, "k": 2560}
+{"options": [null], "identifier": "matmul", "b": 0, "m": 32, "n": 320, "k": 1280}
+{"options": [{"work_group_tile_sizes": [2, 256], "parallel_tile_sizes": [1, 8], "reduction_tile_sizes": [0, 0, 4], "work_group_sizes": [32, 2, 1], "pipeline": "SPIRVMatmulPromoteVectorize", "subgroup_size": 64, "pipeline_depth": 0, "store_stage": 0}], "identifier": "matmul", "b": 0, "m": 2, "n": 1280, "k": 1280}
+{"options": [null], "identifier": "bmm", "b": 16, "m": 256, "n": 256, "k": 160}
+{"options": [null], "identifier": "bmm", "b": 16, "m": 256, "n": 160, "k": 256}
+{"options": [null], "identifier": "matmul", "b": 0, "m": 512, "n": 1280, "k": 1280}
+{"options": [null], "identifier": "matmul", "b": 0, "m": 128, "n": 1280, "k": 768}
+{"options": [null], "identifier": "generic", "b": 2, "m": 640, "n": 256, "k": 5760}
+{"options": [null], "identifier": "bmm", "b": 16, "m": 256, "n": 64, "k": 160}

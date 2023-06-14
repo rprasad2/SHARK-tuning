@@ -1,0 +1,5 @@
+{"options": [null], "identifier": "bmm", "b": 36, "m": 512, "n": 640, "k": 640}
+{"options": [null], "identifier": "bmm", "b": 36, "m": 512, "n": 320, "k": 960}
+{"options": [null], "identifier": "generic", "b": 2, "m": 320, "n": 4096, "k": 960}
+{"options": [null], "identifier": "bmm", "b": 36, "m": 512, "n": 320, "k": 640}
+{"options": [null], "identifier": "generic", "b": 2, "m": 320, "n": 4096, "k": 640}
