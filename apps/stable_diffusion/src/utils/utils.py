@@ -298,7 +298,8 @@ def set_init_device_flags():
         or args.batch_size != 1
         or ("vulkan" not in args.device and "cuda" not in args.device)
     ):
-        args.use_tuned = False
+       # args.use_tuned = False
+       pass
 
     elif base_model_id not in [
         "Linaqruf/anything-v3.0",
@@ -339,6 +340,16 @@ def set_init_device_flags():
             ]
             or "rdna" not in args.iree_vulkan_target_triple
         )
+    ):
+        args.use_tuned = False
+
+    elif "rdna2" in args.iree_vulkan_target_triple and (
+        base_model_id
+        not in [
+            "stabilityai/stable-diffusion-2-1",
+            "stabilityai/stable-diffusion-2-1-base",
+            "CompVis/stable-diffusion-v1-4",
+        ]
     ):
         args.use_tuned = False
 
